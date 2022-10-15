@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Reto.Ciclo339.ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.095 s - in Reto.Ciclo339.ApplicationTests
