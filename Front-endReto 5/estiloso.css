@@ -1,0 +1,120 @@
+body  {
+    background-image:url(misticimg.jpg); /* Color de fondo */
+    background-size:contain
+}
+
+/*--------------------------------estilo respuestas tablas---------------------------*/ 
+
+cloudResult {
+
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #cloudResult td, #cloudResult th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      #cloudResult tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #cloudResult tr:hover {background-color: #ddd;}
+      
+      #cloudResult th {
+        padding-top: 6px;
+        padding-bottom: 5px;
+        text-align: center;
+        background-color: #090a0a;
+        color: white;
+        
+}
+
+categoryResult {
+
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #catergoryResult td, #categoryResult th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #categoryResult tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #categoryResult tr:hover {background-color: #ddd;}
+  
+  #categoryResult th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    
+}
+
+/* ---------------------------------------------ESTILO INDICE----------------------------*/
+ul {
+    font-size: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    background-color: #d6cdd2;
+    height: 500px;
+    
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  #titleso {
+    font-size: 75px;
+    background-color: #0e0a0c;
+    color: white;
+  }
+
+
+/*-------------------------------------------posicion Consultas ----------------------------*/
+
+  #reservacion{
+    position: absolute;
+    right: 12%;
+    top: 580px;
+  }
+
+  #nube{
+    position: absolute;
+    right: 2%;
+    top: 10px;
+  }
+  
+  #cliente{
+    position: absolute;
+    right: 2%;
+    top: 150px;
+  }
+
+  #categoria{
+    position: absolute;
+    right: 31%;
+    top: 290px;
+  }
+
+  #mensaje{
+    position: absolute;
+    right: 45%;
+    top: 430px;
+  }

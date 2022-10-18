@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="UFT-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport"              content="width=device-width, initial-scale=1.0">
+     <title>Reto 5</title>
+     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script type="text/javascript" src="js/Cloud.js"  ></script>
+     <script type="text/javascript" src="js/Client.js"  ></script>
+     <script type="text/javascript" src="js/Category.js"  ></script>
+     <script type="text/javascript" src="js/Message.js"  ></script>
+     <script type="text/javascript" src="js/Reservation.js"  ></script>
+
+     <link href="estiloso.css" rel="stylesheet"></link>
+    </head>
+    
+ <body>
+
+    <ul>
+        <li id="titleso">MENU</li>
+        <li><a onclick="showTextFieldClo()">Cloud</a></li>
+        <li><a onclick="showTextFieldCli()">Client</a></li>
+        <li><a onclick="showTextFieldCat()">Category</a></li>
+        <li><a onclick="showTextFieldMes()">Message</a></li>
+        <li><a onclick="showTextFieldRes()">Reservation</a></li>
+      </ul>
+
+
+  
+    <br>
+    
+    <div id="cloudResult"></div>
+    <div id ="nube" style="display: none;"> 
+        <h1 onclick="hideTextFieldClo()">Cloud</h1> 
+        <input type="text"    id="nameCloud"   placeholder="Name">
+        <input type="text"    id="brand"       placeholder="Brand">
+        <input type="number"  id="year"        placeholder="Year">
+        <input type="text"    id="description" placeholder="description">
+        <br>
+        <button type="button" onclick="getCloInfo()">get</button>
+        <button type="button" onclick="saveCloInfo()">save</button>  
+    </div>
+   
+
+
+   
+    <br>
+    <div id="clientResult"></div>
+    <div id ="cliente" style="display: none;">
+        <h1 onclick="hideTextFieldCli()"> Client  </h1>
+        <input type="text"    id="email"       placeholder="email">
+        <input type="text"    id="password"    placeholder="password">
+        <input type="text"    id="nameClient"  placeholder="name">
+        <input type="number"  id="age"         placeholder="age">
+        <br>
+        <button type="button" onclick="getCliInfo()"     >get</button>
+        <button type="button" onclick="saveCliInfo()"    >save</button>   
+    </div>
+    
+
+    <br>
+    <div id="categoryResult"></div>
+    <div id ="categoria" style="display: none;" > 
+        <h1 onclick="hideTextFieldCat()"> Category </h1>
+        <input type="text"    id="nameCategory"          placeholder="name">
+        <input type="text"  id="descriptionCategory"   placeholder="description">
+        <br>
+        <button type="button" onclick="getCatInfo()"     >get</button>
+        <button type="button" onclick="saveCatInfo()"    >save</button>     
+    </div>
+   
+
+    <br>
+    <div id="messageResult"></div>
+    <div id ="mensaje" style="display: none;">
+        <h1 onclick="hideTextFieldMes()"> Messages </h1>
+        <input type="text"  id="messageText"   placeholder="Messages">
+        <br>
+        <button type="button" onclick="getMesInfo()"     >get</button>
+        <button type="button" onclick="saveMesInfo()"    >save</button> 
+    </div>
+    
+
+    <br>
+    <div id="reservationResult"></div>
+    <div id ="reservacion" style="display: none;">
+        <h1 onclick="hideTextFieldRes()"> Reservation </h1>
+        <input type="date"  id="startDate"        placeholder="date start">
+        <input type="date"  id="devolutionDate"   placeholder="date devolution">
+        <input type="text"  id="status"           placeholder="estado">
+        <input type="number"  id="score"            placeholder="puntuacion">
+        <br>
+        <button type="button" onclick="getResInfo()"     >get</button>
+        <button type="button" onclick="saveResInfo()"    >save</button> 
+    </div>
+    
+
+
+
+
+
+     
+   
+   
+     
+ </body> 
+</html>
